@@ -1,0 +1,42 @@
+.comment-box {
+  background: #34495e;
+  min-height: 200px;
+  padding: 50px 0 20px 0;
+  width: 100%;
+  max-width: 700px;
+  margin: 20px auto;
+  font-family: "sans-serif";
+
+  .user-ref {
+    color: #3498db;
+  }
+  .comment-input-container {
+    position: relative;
+  }
+  .comment-input {
+    background: white;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    overflow: hidden;
+    width: 80%;
+    margin: 0 auto;
+    height: 150px;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.12);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.12);
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.12);
+    padding: 10px;
+    max-width: 560px;
+    br {
+      display: none;
+    }
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .btn {
+    margin: 25px auto;
+    display: block;
+  }
+}
+

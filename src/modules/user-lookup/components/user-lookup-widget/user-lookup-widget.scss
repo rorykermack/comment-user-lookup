@@ -1,0 +1,40 @@
+.user-lookup {
+  background: white;
+  border-radius: 0 0 2px 2px;
+  -webkit-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.12);
+  -moz-box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.12);
+  box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.12);
+  width: 80%;
+  margin: 0 auto;
+
+  .user-result {
+    padding: 10px;
+    cursor: pointer;
+    background: white;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: black;
+    &:nth-child(odd) {
+      background: #ecf0f1;
+    }
+
+    .user-avatar {
+      width: 30px;
+      display: inline-block;
+      margin-right: 8px;
+      background-size: contain;
+      height: 30px;
+      border-radius: 50px;
+    }
+    p {
+      transition: color .25s ease;
+      display: inline-block;
+    }
+    &:hover {
+      p {
+        color: #3498db;
+      }
+    }
+  }
+}
