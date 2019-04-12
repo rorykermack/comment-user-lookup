@@ -4,6 +4,8 @@ This module allows you to add a comment and mention existing system users. For t
 
 This a typescript based react/redux application, with the (comments-with-user-lookup) module housing the specific functionality. 
 
+You can trigger a user lookup by typing @ into the comment box, and search by either user name or name of user.
+
 ### How to setup:
 1. cd into the webapp directory
 2. run `$ npm run setup`
